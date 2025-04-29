@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff99cc;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+}
+
+canvas {
+    border: 2px solid #ff99cc;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+#area-jogo {
+    margin: 20px auto;
+}
+
+#tracinhos {
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 10px;
+    color: #ff0066;
+}
+
+#teclado-virtual {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.tecla {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid #ff99cc;
+    border-radius: 5px;
+    background-color: #ffe6f0;
+    color: #ff0066;
+    cursor: pointer;
+}
+
+.tecla:hover {
+    background-color: #ff99cc;
+    color: white;
+}
+
+#letras-erradas {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff0066;
+}
+
+#mensagem {
+    font-size: 20px;
+    color: #ff0066;
+}
